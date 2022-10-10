@@ -84,7 +84,7 @@ Because the project is dockerized, you can run the following command to start th
    ```sh
    git clone https://github.com/pharm-it-de/promtail-pharmit.git
    ```
-3. Create the `.env`-file (you can create a new API Key [here](https://grafana.com/docs/loki/latest/clients/promtail/).
+3. Create the `.env`-file (you can create a new API Key [here](https://pharmit.grafana.net/a/grafana-easystart-app/hlInstanceId).
    ```sh
     # The URL to the Loki Server (either local or on Grafana Cloud)
     CLIENT_URL=<CLIENT_URL>
