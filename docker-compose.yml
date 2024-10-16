@@ -1,6 +1,7 @@
 version: '3'
 services:
     promtail:
+        restart: unless-stopped
         container_name: promtail
         volumes:
             - './config:/etc/promtail/'
